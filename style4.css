@@ -1,0 +1,25 @@
+body,html{
+    background-color: rgb(196, 153, 153);
+}
+
+
+
+.gallery {
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .gallery img {
+    top: 20px;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.3s ease;
+    border-radius:50%
+  }
+
+  .gallery img:hover {
+    transform: scale(1.2);
+  }
